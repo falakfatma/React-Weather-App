@@ -1,0 +1,51 @@
+.main{
+  height: 100vh;
+  background: url(https://cdn.pixabay.com/photo/2013/02/21/19/10/sea-84629_1280.jpg);
+  color: black;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main input{
+  width: 25rem;
+  padding: .4rem;
+  border-radius: 1rem;
+  margin: 2rem;
+  border:none;
+}
+.card{
+  width: 45rem;
+  height: 25rem;
+  /* background-color: blueviolet; */
+  box-shadow: #5355577a 2px 2px 20px 2px;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* padding: 2rem; */
+}
+.card img{
+  width: 8rem;
+}
+.cards{
+  width: 7rem;
+  /* border: 2px solid; */
+  border-radius: 2rem;
+  box-shadow: #5355577a 2px 2px 20px 2px;
+  display: flex;
+  padding: .5rem;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 28rem;
+}
+
+.cards p ,.cards h6{
+  margin: 0;
+}
+
+.cards img{
+  width: 4rem;
+}
