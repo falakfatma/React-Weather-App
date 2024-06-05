@@ -12,10 +12,10 @@
   width: 25rem;
   padding: .4rem;
   border-radius: 1rem;
-  margin: 2rem;
+  /* margin: 2rem; */
   border:none;
 }
-.card{
+.containerCard{
   width: 45rem;
   height: 25rem;
   /* background-color: blueviolet; */
@@ -26,10 +26,13 @@
   align-items: center;
   /* padding: 2rem; */
 }
-.card img{
+.containerCard img{
   width: 8rem;
 }
 .cards{
+ /* display: flex; */
+}
+.card{
   width: 7rem;
   /* border: 2px solid; */
   border-radius: 2rem;
@@ -48,4 +51,14 @@
 
 .cards img{
   width: 4rem;
+}
+.btn{
+  box-shadow: #5355577a 2px 2px 20px 2px;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-left: 1rem;
+}
+.row{
+  display: flex;
+  padding:2rem;
 }
